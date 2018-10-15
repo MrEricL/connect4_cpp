@@ -2,7 +2,7 @@
 #include <string>
 
 std::string display_board(std::string board [6][7]){
-	std::string ret = "\n";
+	std::string ret = "\n 0  1  2  3  4  5  6 \n";
 	for (int i = 0; i < 6; i++){
 		for (int j = 0; j < 7; j++){
 			ret+=board[i][j];
